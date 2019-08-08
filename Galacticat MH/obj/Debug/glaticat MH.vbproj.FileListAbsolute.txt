@@ -1,0 +1,10 @@
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\bin\Debug\glaticat MH.exe.config
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\bin\Debug\glaticat MH.exe
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\bin\Debug\glaticat MH.pdb
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\bin\Debug\glaticat MH.xml
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\obj\Debug\glaticat_MH.Resources.resources
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\obj\Debug\glaticat MH.vbproj.GenerateResource.Cache
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\obj\Debug\glaticat MH.exe
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\obj\Debug\glaticat MH.xml
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\obj\Debug\glaticat MH.pdb
+C:\Users\RealProgramming4Kids\AppData\Local\Temporary Projects\glaticat MH\obj\Debug\glaticat_MH.MainForm.resources
