@@ -88,7 +88,7 @@
         If Guy.Position.Y > floors(1).bottom And Guy.Position.X = 638 + Guy.cellWidth And Guy.state = ALIVE Then
             Guy.Position.Y = 81 And Guy.Position.X = 0 - Guy.cellWidth
         ElseIf Guy.Position.Y > floors(1).bottom And Guy.Position.X = 0 - Guy.cellWidth And Guy.state = ALIVE Then
-            Guy.Position.Y = 81 And Guy.Position.X = 638 - Guy.cellWidth
+            Guy.Position.Y = 81 And Guy.Position.X = 637 - Guy.cellWidth
 
         End If
     End Sub
