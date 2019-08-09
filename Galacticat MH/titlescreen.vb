@@ -11,6 +11,6 @@
 
 
     Private Sub titlescreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        badguynumber = 6
+        badguynumber = 0
     End Sub
 End Class

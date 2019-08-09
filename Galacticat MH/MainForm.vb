@@ -82,6 +82,8 @@
         Call slowBadGuydown()
         Call SpeedUp()
         Call ResetSpeed()
+        Call BadguysJump()
+        Call badguysReverse()
     End Sub
     Public Sub DrawScreenSet()
         imageOffScreen = Backdrop.Picture.Clone
@@ -132,7 +134,7 @@
                 Me.Close()
 
             End If
-            badguynumber += 100
+
             Call resetLevel()
             Timer1.Start()
         End If
@@ -149,8 +151,9 @@
         End If
     End Sub
     Public Sub resetLevel()
-
+        
         Call LoadSprite(Max, "/Pics/Pics/galacticat.png", 15, 5, 17, 200, 200)
+        NumBadguys = badguynumber
 
         For index = 0 To NumBadguys
             If index Mod 2 = 0 Then
@@ -182,11 +185,11 @@
             InvincibilitySpawn = True
         End If
 
-        If randomNum = 50 Then
+        If randomNum = 70 Then
             Call LoadSprite(Invincibility, "/pics/pics/Invincible.png", 1, 0, 0, 200, 20)
             InvincibilitySpawn = True
         End If
-        If randomNum = 20 Then
+        If randomNum = 2 Then
             Call LoadSprite(Slow, "/pics/pics/clock.png", 1, 0, 0, 400, 250)
             SlowSpawn = True
         End If

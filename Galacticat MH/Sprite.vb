@@ -20,6 +20,8 @@
         Dim Invincible As Boolean
         Dim timeslow As Integer
         Dim powerTimeSlower As Boolean
+        Dim JumpCounter As Integer
+        Dim ReverseTimer
     End Structure
 
 
@@ -30,7 +32,7 @@
     Public Max As sprite
     Public Milk As sprite
     Public NumBadguys As Integer = badguynumber
-    Public BadGuys(NumBadguys) As sprite
+    Public BadGuys(1000) As sprite
     Public Const gravity As Integer = 1
     Public ALIVE As Integer = 0
     Public DEAD As Integer = 1
@@ -363,10 +365,11 @@
     Public Sub SpeedUp()
         If collision(Max, fast) And Max.state = ALIVE And fast.state = ALIVE Then
             fast.state = DEAD
-            Max.Startspeed.X *= 3
-            fastspawn = False
+            If Max.Startspeed.X < 10 Then
+                Max.Startspeed.X *= 2
+                fastspawn = False
             End If
-
+        End If
 
 
     End Sub
@@ -377,5 +380,37 @@
             slowDownSpawn = False
 
         End If
+    End Sub
+
+
+    Public Sub BadguysJump()
+        Dim index As Integer
+        For index = 0 To NumBadguys
+            BadGuys(index).JumpCounter += 1
+            If BadGuys(index).JumpCounter = 200 Then
+                BadGuys(index).Speed.Y = -10
+                BadGuys(index).JumpCounter = 0
+            End If
+
+
+
+        Next
+    End Sub
+
+
+    Public Sub badguysReverse()
+        Dim index As Integer
+        For index = 0 To NumBadguys
+            BadGuys(index).ReverseTimer += 1
+            If BadGuys(index).ReverseTimer = 300 Then
+                BadGuys(index).ReverseTimer = 0
+                If BadGuys(index).Speed.X > 0 Then
+                    BadGuys(index).Speed.X = -4
+                Else
+                    BadGuys(index).Speed.X = 4
+
+                End If
+            End If
+        Next
     End Sub
 End Module

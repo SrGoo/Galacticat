@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles RetryButton.Click
-        badguynumber += 100
+        badguynumber += 5
         Hide()
     End Sub
 
