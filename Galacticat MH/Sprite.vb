@@ -405,9 +405,9 @@
             If BadGuys(index).ReverseTimer = 300 Then
                 BadGuys(index).ReverseTimer = 0
                 If BadGuys(index).Speed.X > 0 Then
-                    BadGuys(index).Speed.X = -4
+                    BadGuys(index).Speed.X = -badguysspeed
                 Else
-                    BadGuys(index).Speed.X = 4
+                    BadGuys(index).Speed.X = badguysspeed
 
                 End If
             End If

@@ -12,6 +12,8 @@
     End Sub
 
     Private Sub PlayAgain_Click(sender As Object, e As EventArgs) Handles PlayAgain.Click
+        Score = 0
         Hide()
+
     End Sub
 End Class

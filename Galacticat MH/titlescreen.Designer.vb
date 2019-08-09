@@ -25,6 +25,7 @@ Partial Class titlescreen
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(titlescreen))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PlayButton = New System.Windows.Forms.Button()
+        Me.SettingsButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -51,14 +52,28 @@ Partial Class titlescreen
         Me.PlayButton.Text = "Play"
         Me.PlayButton.UseVisualStyleBackColor = False
         '
+        'SettingsButton
+        '
+        Me.SettingsButton.BackColor = System.Drawing.Color.Black
+        Me.SettingsButton.Font = New System.Drawing.Font("Segoe Print", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SettingsButton.Location = New System.Drawing.Point(440, 169)
+        Me.SettingsButton.Name = "SettingsButton"
+        Me.SettingsButton.Size = New System.Drawing.Size(75, 39)
+        Me.SettingsButton.TabIndex = 2
+        Me.SettingsButton.Text = "Settings"
+        Me.SettingsButton.UseVisualStyleBackColor = False
+        '
         'titlescreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(582, 416)
+        Me.Controls.Add(Me.SettingsButton)
         Me.Controls.Add(Me.PlayButton)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.Color.Cyan
         Me.Name = "titlescreen"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -67,4 +82,5 @@ Partial Class titlescreen
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents PlayButton As System.Windows.Forms.Button
+    Friend WithEvents SettingsButton As System.Windows.Forms.Button
 End Class

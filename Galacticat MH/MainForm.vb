@@ -157,9 +157,9 @@
 
         For index = 0 To NumBadguys
             If index Mod 2 = 0 Then
-                Call LoadSprite(BadGuys(index), "/Pics/Pics/fangs.png", 10, 4, 0, 50, 50)
+                Call LoadSprite(BadGuys(index), "/Pics/Pics/fangs.png", 10, badguysspeed, 0, 50, 50)
             Else
-                Call LoadSprite(BadGuys(index), "/Pics/Pics/fangs.png", 10, -4, 0, 550, 50)
+                Call LoadSprite(BadGuys(index), "/Pics/Pics/fangs.png", 10, -badguysspeed, 0, 550, 50)
             End If
         Next index
         Call LoadSprite(Milk, "/pics/pics/milk.png", 1, 0, 0, 310, 278)
@@ -167,7 +167,7 @@
         Call DrawScreenSet()
         Call SetFloors()
         Quit = False
-        Score = 0
+
         Lives = 3
         NumBadguysKilled = 0
         Max.Speed.X = 0
