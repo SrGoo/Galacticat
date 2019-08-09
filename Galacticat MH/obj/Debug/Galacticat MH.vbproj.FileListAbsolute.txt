@@ -11,3 +11,7 @@ C:\Users\RealProgramming4Kids\Desktop\Galacticat MH\Galacticat MH\obj\Debug\Gala
 C:\Users\RealProgramming4Kids\Desktop\Galacticat MH\Galacticat MH\obj\Debug\glaticat_MH.titlescreen.resources
 C:\Users\RealProgramming4Kids\Desktop\Galacticat MH\Galacticat MH\obj\Debug\glaticat_MH.Winform.resources
 C:\Users\RealProgramming4Kids\Desktop\Galacticat MH\Galacticat MH\obj\Debug\glaticat_MH.Form1.resources
+C:\Users\RealProgramming4Kids\Desktop\git practice\Galacticat\Galacticat MH\bin\Debug\Galacticat MH.exe.config
+C:\Users\RealProgramming4Kids\Desktop\git practice\Galacticat\Galacticat MH\obj\Debug\Galacticat MH.exe
+C:\Users\RealProgramming4Kids\Desktop\git practice\Galacticat\Galacticat MH\obj\Debug\Galacticat MH.xml
+C:\Users\RealProgramming4Kids\Desktop\git practice\Galacticat\Galacticat MH\obj\Debug\Galacticat MH.pdb

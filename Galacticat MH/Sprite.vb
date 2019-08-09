@@ -21,6 +21,9 @@
         Dim timeslow As Integer
         Dim powerTimeSlower As Boolean
     End Structure
+
+
+    'HELLO WORLD
     Public fast As sprite
     Public SlowDown As sprite
     Public Slow As sprite
